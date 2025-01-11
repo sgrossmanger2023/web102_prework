@@ -4,7 +4,15 @@ body {
     font-family: 'Cabin';
     background-color: #758190;
 }
-
+.stats-container {
+    display: flex;
+    align-items: left;
+    
+}
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
 #tentacles {
     width: 50px;
 }
